@@ -65,16 +65,17 @@
 
 <div class="bg"></div>
 
-<div class="container">
+<main class="section">
 
-  <div class="card">
+  <!-- ADD DEBT FORM -->
+  <div class="card form-card">
 
-    <h1>💰 Debt Reminder</h1>
-    <p class="sub">Send payment reminders instantly</p>
+    <h2>➕ Add New Debt</h2>
+    <p class="hint">Create a new reminder entry</p>
 
     <input type="text" id="name" placeholder="Debtor name">
     <input type="text" id="phone" placeholder="Phone number (+998...)">
-    <input type="text" id="amount" placeholder="Debt amount">
+    <input type="number" id="amount" placeholder="Debt amount ($)">
 
     <button onclick="sendData()">Send Reminder</button>
 
@@ -82,7 +83,48 @@
 
   </div>
 
-</div>
+  <!-- DEBT LIST -->
+  <div class="card list-card">
+
+    <div class="list-header">
+      <h2>📋 Debt List</h2>
+      <button class="small-btn">Filter</button>
+    </div>
+
+    <div class="debt-list">
+
+      <div class="item">
+        <div>
+          <h4>Ali Valiyev</h4>
+          <span>+998 90 123 45 67</span>
+        </div>
+        <div class="amount">$120</div>
+        <div class="status pending">Pending</div>
+      </div>
+
+      <div class="item">
+        <div>
+          <h4>John Doe</h4>
+          <span>+1 202 555 0198</span>
+        </div>
+        <div class="amount">$340</div>
+        <div class="status paid">Paid</div>
+      </div>
+
+      <div class="item">
+        <div>
+          <h4>Sarah Smith</h4>
+          <span>+44 7700 900123</span>
+        </div>
+        <div class="amount">$89</div>
+        <div class="status pending">Pending</div>
+      </div>
+
+    </div>
+
+  </div>
+
+</main>
 
 <script src="script.js"></script>
 </body>
