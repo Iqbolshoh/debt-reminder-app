@@ -27,30 +27,34 @@ debt-reminder-app/
 │── log.txt         # Message logs (auto created)</pre>
 
 ## 🧑‍💻 How It Works
+<pre>
 Enter debtor name
 Enter phone number
 Enter debt amount
 Click Send Reminder
 PHP backend processes request
 Message is logged in log.txt
-
+</pre>
 ## ⚙️ Installation
 
  Clone project
 git clone https://github.com/iqbolshoh/debt-reminder-app.git
 
 ## 🧠 Technologies Used
+<pre>
 HTML5
 CSS3 (Glassmorphism UI)
 JavaScript (Vanilla)
 PHP (Backend processing)
+</pre>
 
 ## 📌 Future Improvements
+<pre>
 📱 Real SMS API integration (Twilio / local SMS gateway)
 💾 Database support (MySQL)
 📊 Admin dashboard analytics
 🔔 Auto reminder scheduler (cron job)
-📩 Email notification system
+📩 Email notification system</pre>
 
 ## 👨‍💻 Author
 
